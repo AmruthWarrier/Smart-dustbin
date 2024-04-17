@@ -19,7 +19,7 @@ LiquidCrystal lcd(12, 11, 6, 5, 3, 2);
 const int irSensorPin = 8;
 
 // Setup for Bluetooth communication using Software Serial
-SoftwareSerial bluetooth(7, 6); // RX, TX pins for Bluetooth module
+SoftwareSerial bluetooth(7, 4); // RX, TX pins for Bluetooth module
 
 void setup() {
   myservo.attach(13); // Attach the servo motor to pin 13
